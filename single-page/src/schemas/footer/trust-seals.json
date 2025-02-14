@@ -1,0 +1,13 @@
+{
+    "sectionTitle": "Selos de Segurança",
+    "seals": [
+      {
+        "title": "Google Trust Seal",
+        "url": "assets/google-trust-seal.svg"
+      },
+      {
+        "title": "Store Protect Seal",
+        "url": "assets/store-protect-seal.svg"
+      }
+    ]
+  }

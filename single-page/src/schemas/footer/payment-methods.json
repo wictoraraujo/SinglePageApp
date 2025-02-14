@@ -1,0 +1,33 @@
+{
+    "sectionTitle": "Formas de Pagamento",
+    "payments": [
+      {
+        "title": "Visa",
+        "url": "assets/payment-methods/visa-payment-icon.svg"
+      },
+      {
+        "title": "Mastercard",
+        "url": "assets/payment-methods/mastercard-payment-icon.svg"
+      },
+      {
+        "title": "Amex",
+        "url": "assets/payment-methods/amex-payment-icon.svg"
+      },
+      {
+        "title": "Dinners",
+        "url": "assets/payment-methods/dinners-payment-icon.svg"
+      },
+      {
+        "title": "Discover",
+        "url": "assets/payment-methods/discover-payment-icon.svg"
+      },
+      {
+        "title": "Boleto",
+        "url": "assets/payment-methods/boleto-payment-icon.svg"
+      },
+      {
+        "title": "Pix",
+        "url": "assets/payment-methods/pix-payment-icon.svg"
+      }
+    ]
+  }
