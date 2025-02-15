@@ -2,7 +2,7 @@ import SecuritySeals from "./SecuritySeals";
 import PaymentMethods from "./PaymentMethods";
 import CustomerSupport from "./CustomerSupport";
 
-function Footer() {
+function FooterSection() {
     return (
         <footer>
             <CustomerSupport />
@@ -12,4 +12,4 @@ function Footer() {
     )
 }
 
-export default Footer;
+export default FooterSection;
