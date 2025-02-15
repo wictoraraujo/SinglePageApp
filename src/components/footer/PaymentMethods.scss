@@ -1,0 +1,46 @@
+.payment-methods {
+    width: 100%;
+    max-width: 275px;
+    height: 213px;
+    font-family: Inter, sans-serif;
+
+    &__title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19.36px;
+        color: #fff;
+        padding-bottom: 7px;
+        position: relative;
+    }
+
+    &__title::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, #32BCAD 0 50%, transparent 50% 100%);
+    }
+
+    &__title::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 50%;
+        height: 1px;
+        background: #CFCFCF;
+    }
+
+    &__images {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        div img {
+            padding-right: 5px;
+        }
+    }
+}
