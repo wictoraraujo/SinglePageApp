@@ -1,0 +1,23 @@
+.header-section__navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-list__item {
+    margin: 0 20px;
+  }
+  
+  .navbar-list__link {
+    text-decoration: none;
+    color: #000;
+  }

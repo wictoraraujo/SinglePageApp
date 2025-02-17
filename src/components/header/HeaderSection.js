@@ -1,30 +1,34 @@
+import React, { useState, useEffect } from 'react'
+import HeaderDesktop from './HeaderDesktop'
+import HeaderMobile from './HeaderMobile'
 import Logo from '../../assets/logo.svg'
 import SearchIcon from '../../assets/search-icon.svg'
 import CartIcon from '../../assets/cart-icon.svg'
 import './HeaderSection.scss'
 
 function HeaderSection() {
+  const [isMobile, setIsMobile] = useState(false)
+
+  const checkIsMobile = () => {
+    const mobileBreakpoint = 768
+    setIsMobile(window.innerWidth <= mobileBreakpoint)
+  }
+
+    useEffect(() => {
+      checkIsMobile()
+      window.addEventListener('resize', checkIsMobile)
+
+      return () => {
+        window.removeEventListener('resize', checkIsMobile)
+      }
+    }, [])
+
     return (
         <header className='header-section'>
           <a className='header-section__logo' href="/">
             <img src={Logo} alt="logo-svg" />
           </a>
-          <nav className='header-section__navbar'>
-            <ul className='navbar-list'>
-              <li className='navbar-list__item'>
-                <a className='navbar-list__link' href="/">Loja</a>
-              </li>
-              <li className='navbar-list__item'>
-                <a className='navbar-list__link' href="/">Login</a>
-              </li>
-              <li className='navbar-list__item'>
-                <a className='navbar-list__link' href="/">Sobre</a>
-              </li>
-              <li className='navbar-list__item'>
-                <a className='navbar-list__link' href="/">Contato</a>
-              </li>
-            </ul>
-          </nav>
+          {isMobile ? <HeaderMobile /> : <HeaderDesktop />}
           <div className='header-section__product'>
             <div className='product__search'>
               <input className='search__bar' type="search" placeholder='Digite aqui sua busca' />
