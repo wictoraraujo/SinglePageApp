@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="landing-page">
       <HeaderSection />
-      <MainSection />
+      <main>
+        <MainSection />
+      </main>
       <FooterSection />
     </div>
   );
