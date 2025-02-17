@@ -1,0 +1,9 @@
+.mosaic-section {
+    margin: 28px auto;
+    max-width: 80%;
+
+    @media (min-width: 768px) {
+        max-width: 1200px;
+        max-height: 500px;
+    }
+}
