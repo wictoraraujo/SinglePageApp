@@ -34,6 +34,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "sass": "^1.85.0"
   },
   "homepage": "https://wictoraraujo.github.io/SinglePageApp/"
