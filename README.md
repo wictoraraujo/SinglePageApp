@@ -19,4 +19,4 @@
 ![image](https://github.com/user-attachments/assets/16629e9a-bcb0-48ee-9bb8-61c4e8e3fe01)
 
 
-### The entire project structure can be seen through the link: <https://github.com/wictoraraujo/SinglePageApp>
+### The project preview can be seen through the link: <https://wictoraraujo.github.io/SinglePageApp/>
