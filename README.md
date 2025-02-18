@@ -14,6 +14,9 @@
 
 * The BEM methodology was used within the style sheets, which proposes better code organization and class naming. The purpose of using it is to facilitate writing, reading, understanding and maintenance of the code later. 
 
-### The layout that should be followed can be seen in the following link: <https://www.figma.com/design/e0xCp8OGgVlKZgsFf6yT66/Modelo-de-teste---Front-end?node-id=0-1&p=f&t=4KUebpoFsP5229AN-0>
+### The layout that should be followed can be seen in the following link: <https://www.figma.com/design/e0xCp8OGgVlKZgsFf6yT66/Modelo-de-teste---Front-end?node-id=0-1&p=f&t=4KUebpoFsP5229AN-0>, as well as in the print below:
+
+![image](https://github.com/user-attachments/assets/16629e9a-bcb0-48ee-9bb8-61c4e8e3fe01)
+
 
 ### The entire project structure can be seen through the link: <https://github.com/wictoraraujo/SinglePageApp>
