@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/SinglePageApp/static/css/main.1777de1e.css",
+    "main.js": "/SinglePageApp/static/js/main.8918c2c6.js",
+    "static/js/488.8c2de923.chunk.js": "/SinglePageApp/static/js/488.8c2de923.chunk.js",
+    "static/media/baby-stroller.png": "/SinglePageApp/static/media/baby-stroller.4d202243093c7b42fa4b.png",
+    "static/media/baby-clothes.png": "/SinglePageApp/static/media/baby-clothes.9035bc5fff8388a0eed7.png",
+    "static/media/baby-family.png": "/SinglePageApp/static/media/baby-family.b905438eda1afb87afc2.png",
+    "static/media/baby-in-arms.png": "/SinglePageApp/static/media/baby-in-arms.ce20863c6ba169610253.png",
+    "static/media/baby-cradle.png": "/SinglePageApp/static/media/baby-cradle.936018b5d4fd88fdaa39.png",
+    "static/media/watch.png": "/SinglePageApp/static/media/watch.b9e041b474b3fe2916d2.png",
+    "static/media/white-chair.png": "/SinglePageApp/static/media/white-chair.c88bcfaaae2ad82b3323.png",
+    "static/media/red-chair.png": "/SinglePageApp/static/media/red-chair.d4aa4480934477df8ecd.png",
+    "static/media/cleaning-shovel.png": "/SinglePageApp/static/media/cleaning-shovel.05901d566a0a35e8496d.png",
+    "static/media/google-trust-seal.svg": "/SinglePageApp/static/media/google-trust-seal.948fb663fc1cb86f8c73.svg",
+    "static/media/logo.svg": "/SinglePageApp/static/media/logo.703221bb0b0de1500979f885deefc877.svg",
+    "static/media/store-protect-seal.svg": "/SinglePageApp/static/media/store-protect-seal.714d32c94251c964654f.svg",
+    "static/media/pix-payment-icon.svg": "/SinglePageApp/static/media/pix-payment-icon.05b1bdaa255c12452c0b.svg",
+    "static/media/discover-payment-icon.svg": "/SinglePageApp/static/media/discover-payment-icon.d010ee792fdec5257fa3.svg",
+    "static/media/cart-icon.svg": "/SinglePageApp/static/media/cart-icon.3f0c6ceb07547589b0349267fec127cb.svg",
+    "static/media/visa-payment-icon.svg": "/SinglePageApp/static/media/visa-payment-icon.a7811aa43465206cdffd.svg",
+    "static/media/mastercard-payment-icon.svg": "/SinglePageApp/static/media/mastercard-payment-icon.5e6cc850ad15e2790013.svg",
+    "static/media/amex-payment-icon.svg": "/SinglePageApp/static/media/amex-payment-icon.9e107b702651300a0846.svg",
+    "static/media/dinners-payment-icon.svg": "/SinglePageApp/static/media/dinners-payment-icon.116a6feb6bc5d03e994e.svg",
+    "static/media/boleto-payment-icon.svg": "/SinglePageApp/static/media/boleto-payment-icon.11b2ae01ea7cdf3121cc.svg",
+    "static/media/search-icon.svg": "/SinglePageApp/static/media/search-icon.31d2ef558b742af209c09d2144d5f40f.svg",
+    "index.html": "/SinglePageApp/index.html",
+    "main.1777de1e.css.map": "/SinglePageApp/static/css/main.1777de1e.css.map",
+    "main.8918c2c6.js.map": "/SinglePageApp/static/js/main.8918c2c6.js.map",
+    "488.8c2de923.chunk.js.map": "/SinglePageApp/static/js/488.8c2de923.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1777de1e.css",
+    "static/js/main.8918c2c6.js"
+  ]
+}
