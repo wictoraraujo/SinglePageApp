@@ -35,5 +35,6 @@
   },
   "devDependencies": {
     "sass": "^1.85.0"
-  }
+  },
+  "homepage": "https://wictoraraujo.github.io/SinglePageApp/"
 }
