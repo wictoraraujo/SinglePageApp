@@ -1,9 +1,9 @@
 .showcase-section {
     width: 100%;
-    max-width: 1200px;
-    height: 500px;
+    height: auto;
+    
     background-color: transparent;
-    margin: 65px auto;
+    margin: 0 auto;
 
     &__title {
         text-align: center;
@@ -36,8 +36,14 @@
         height: 2px;
         background: #CFCFCF;
     }
+}
 
-    @media (min-width: 768px) {
+@media (min-width: 768px) {
+    .showcase-section {
+        max-width: 1200px;
+        height: 500px;
+        margin: 65px auto;
+
         &__line {
             width: 100%;
             margin: 18px 0;
