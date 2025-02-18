@@ -1,0 +1,21 @@
+{
+  "sectionTitle": "Galeria de Imagens",
+  "images": [
+    {
+      "title": "Red Chair",
+      "url": "red-chair.png"
+    },
+    {
+      "title": "Watch",
+      "url": "watch.png"
+    },
+    {
+      "title": "Cleaning Shovel",
+      "url": "cleaning-shovel.png"
+    },
+    {
+      "title": "White Chair",
+      "url": "white-chair.png"
+    }
+  ]
+}

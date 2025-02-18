@@ -1,12 +1,12 @@
-import ShowcaseSection from './ShowcaseSection'
+import ShowcaseSection from './showcase-section/ShowcaseSection'
 import MosaicSection from './mosaic-section/MosaicSection'
 
 function MainSection() {
     return (
-        <div className="main-section">
+        <main className="main-section">
             <MosaicSection />
             <ShowcaseSection />
-        </div>
+        </main>
     )
 }
 

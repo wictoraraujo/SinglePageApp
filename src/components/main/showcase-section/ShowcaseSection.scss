@@ -1,0 +1,46 @@
+.showcase-section {
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+    background-color: transparent;
+    margin: 65px auto;
+
+    &__title {
+        text-align: center;
+    }
+
+    &__line {
+        width: 85%;
+        height: 2px;
+        margin: 0 auto;
+        background-color: #cfcfcf;
+        position: relative;
+    }
+
+    &__line::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right, transparent 0 35%, #A4BEBF 35% 65%, transparent 65% 100%);
+    }
+
+    &__line::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 35%;
+        width: 50%;
+        height: 2px;
+        background: #CFCFCF;
+    }
+
+    @media (min-width: 768px) {
+        &__line {
+            width: 100%;
+            margin: 18px 0;
+        }
+    }
+}
